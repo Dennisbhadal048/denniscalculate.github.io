@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-image: url('backimage.jpg'); background-size: cover;">
+    <div style="background-color: gray; opacity: 90%;; text-align:center; color: white; width: 800px; height: auto; margin: auto; padding: 20px; font-family: cursive; margin-top: 100px;">
+        <h1>KALKULATOR SEGITIGA</h1><br>
+        <table style="margin: auto;">
+            <tr>
+                <td><label for="tinggi">Tinggi:</label></td>
+                <td><input type="number" name="tinggi" id="tinggi" style="width: 300px;"></td>
+            </tr>
+            <tr>
+                <td><label for="alas">Alas  :</label></td>
+                <td><input type="number" name="alas" id="alas" style="width: 300px;"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="radio" id="pill1" name="pilih"><label for="pilih">InnerHTML</label>
+        <input type="radio" id="pill2" name="pilih"><label for="pilih">Alert</label>
+        <input type="radio" id="pill3" name="pilih"><label for="pilih">Writeln</label><br><br>
+        <input type="button" name="btn" value="Hitung" onclick="output()">
+        <h3>Hasil : </h3><h3 id="result"></h3>
+    </div>
+
+    
+</body>
+</html>
